@@ -8,8 +8,3 @@ class Face:
 
     def clone(self):
         return copy.deepcopy(self)
-
-face1 = Face(15,7,'зеленый')
-copyface = face1.clone()
-
-print(copyface.colorcheeks)
